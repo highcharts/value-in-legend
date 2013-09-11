@@ -1,0 +1,24 @@
+{
+    "name": "Value-In-Legend",
+    "version": "1.0.0",
+    "title": "Show Value In Legend",
+    "jsfiddle": "http://jsfiddle.net/highcharts/DVvdZ/",
+    "author": {
+        "name": "Torstein Hønsi",
+        "url": "https://github.com/highslide-software"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/highslide-software/value-in-legend/blob/master/LICENSE"
+        }
+    ],
+    "description": "Highcharts plugin for displaying value information in the legend",
+    "keywords": [
+     "value",
+     "legend"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}
