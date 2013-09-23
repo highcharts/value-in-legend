@@ -1,8 +1,10 @@
 {
     "name": "Value-In-Legend",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "title": "Show Value In Legend",
-    "jsfiddle": "http://jsfiddle.net/highcharts/DVvdZ/",
+    "demo": [
+        "http://jsfiddle.net/highcharts/DVvdZ/"
+    ],
     "author": {
         "name": "Torstein Hønsi",
         "url": "https://github.com/highslide-software"
