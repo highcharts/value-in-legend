@@ -1,5 +1,5 @@
 {
-  "name": "Value-In-Legend",
+  "name": "highcharts-value-in-legend",
   "version": "1.0.2",
   "description": "Highcharts plugin for displaying value information in the legend",
   "main": "value-in-legend.js",
