@@ -1,11 +1,8 @@
 {
   "name": "highcharts-value-in-legend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Highcharts plugin for displaying value information in the legend",
   "main": "value-in-legend.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/highcharts/value-in-legend.git"
@@ -16,7 +13,7 @@
     "legend",
     "highcharts-addon"
   ],
-  "author": "Torstein Hønsi",
+  "author": "Torstein Honsi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/highcharts/value-in-legend/issues"

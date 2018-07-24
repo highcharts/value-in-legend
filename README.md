@@ -1,6 +1,6 @@
 value-in-legend
 ===============
     // Highcharts plugin for displaying value information in the legend
-    // Author: Torstein Hønsi
+    // Author: Torstein Honsi
     // License: MIT license
-    // Last revision: 2013-07-29
+    // Version: 1.0.3 (2018-07-24)

@@ -1,13 +1,18 @@
 // Highcharts plugin for displaying value information in the legend
-// Author: Torstein Hønsi
+// Author: Torstein Honsi
 // License: MIT license
-// Last revision: 2013-07-29
+// Version: 1.0.3 (2018-07-24)
 (function (H) {
     H.Series.prototype.point = {}; // The active point
     H.Chart.prototype.callbacks.push(function (chart) {
         $(chart.container).bind('mousemove', function () {
             var legendOptions = chart.legend.options,
                 hoverPoints = chart.hoverPoints;
+
+            // Return when legend is disabled (#4)
+            if (legendOptions.enabled === false) {
+                return;
+            }
             
             if (!hoverPoints && chart.hoverPoint) {
                 hoverPoints = [chart.hoverPoint];
